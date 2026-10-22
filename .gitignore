@@ -1,0 +1,43 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ROS / build output
+build/
+install/
+log/
+
+# Local experiment output and large artifacts
+data/
+datasets/
+recordings/
+checkpoints/
+weights/
+runs/
+outputs/
+*.bag
+*.mcap
+*.db3
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
